@@ -1,0 +1,6 @@
+framework module Pods_HBookReader_Example {
+  umbrella header "Pods-HBookReader_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

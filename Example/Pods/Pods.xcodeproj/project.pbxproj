@@ -1,0 +1,772 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3389E240E8A1B5F6A61A79E534754276 /* Pods-HBookReader_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 59680E07507A24C7D05A4C5EAFEF390E /* Pods-HBookReader_Tests-dummy.m */; };
+		4FB8B8D10EC9384712D583814528809C /* Pods-HBookReader_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A78E10DB7F872CB0D2FD1D50EA7094A /* Pods-HBookReader_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D53CA6046629E7D13DAAD7679EDC3BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		5DC248EB360E1F9C1678CCF3912169FF /* Pods-HBookReader_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EF7777B0D2D486EDF5B4064449A63E04 /* Pods-HBookReader_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79DBD0660AE304C8EF60C62889D4CA42 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		9EFFBFBD4B3FDC2464899BC6D0437E99 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		B9BF02AD8624D0918628A7901FF11198 /* HBookReader-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E011BECEB39F7AF848F876FD7B1FB40A /* HBookReader-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2E6BBEC86300D7F4E68EFF1D610B20C /* HBookReader-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 31EE4C3F5D3644D11097099C07FA477F /* HBookReader-dummy.m */; };
+		E11AB7EFD491E9F2F70CAA58C15F2BDB /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C39B509D05067897E3F023D3C4E547 /* ReplaceMe.swift */; };
+		F76270D53BCE362F47E0840F90CD31EA /* Pods-HBookReader_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D4C827C1B92B08C302329B15494E67 /* Pods-HBookReader_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1681978AF08259B836B8A1873378AA51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C111C693D3E44E9E2C03E83B9D1C76FB;
+			remoteInfo = HBookReader;
+		};
+		72C89625B7730D2A8EC5542E5AAD5F36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96D1F97D58C94C7F008A92A7E271000E;
+			remoteInfo = "Pods-HBookReader_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		139D97D6881817C44DF55C16F81FD58B /* Pods-HBookReader_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HBookReader_Example.release.xcconfig"; sourceTree = "<group>"; };
+		28D4C827C1B92B08C302329B15494E67 /* Pods-HBookReader_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HBookReader_Example-dummy.m"; sourceTree = "<group>"; };
+		29F10E30CBAF3CAE61D99E6528F1B6FD /* HBookReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HBookReader.framework; path = HBookReader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C24EAACAFA0127A6B6C38AAE9587849 /* Pods-HBookReader_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HBookReader_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		303DB3F03DF9CF2FD7A7509105F4764A /* HBookReader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HBookReader.release.xcconfig; sourceTree = "<group>"; };
+		31EE4C3F5D3644D11097099C07FA477F /* HBookReader-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HBookReader-dummy.m"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		395D27BC0ACD0ACF6D132E8474D04D2D /* HBookReader.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HBookReader.modulemap; sourceTree = "<group>"; };
+		3F9ACE0DDE695733C9937963D0F7E349 /* HBookReader.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HBookReader.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4668529B455EF39827C24D167F0931FE /* Pods-HBookReader_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HBookReader_Example.modulemap"; sourceTree = "<group>"; };
+		4C736839E6189B7068D8D2ECF488984E /* HBookReader-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HBookReader-prefix.pch"; sourceTree = "<group>"; };
+		59680E07507A24C7D05A4C5EAFEF390E /* Pods-HBookReader_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HBookReader_Tests-dummy.m"; sourceTree = "<group>"; };
+		5A78E10DB7F872CB0D2FD1D50EA7094A /* Pods-HBookReader_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HBookReader_Tests-umbrella.h"; sourceTree = "<group>"; };
+		6787064BC11B3212B88155B8C751F3EE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		73958FA2C3CCEF23033C462233D2F66E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		78D1FBF7913A20C6D11E2D1ECA2DAC5F /* Pods-HBookReader_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HBookReader_Example-frameworks.sh"; sourceTree = "<group>"; };
+		82173E1507966743DA38F8013157FCF7 /* Pods-HBookReader_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HBookReader_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A4D3A4CA7AA549DF689E3D76714D72A1 /* Pods-HBookReader_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HBookReader_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		ABCC637F205349FCFA860F088D565087 /* Pods-HBookReader_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HBookReader_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B2619BC06468D381015B7997F27B325E /* Pods_HBookReader_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HBookReader_Tests.framework; path = "Pods-HBookReader_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9C8DC70B011DFDE735AFADC06F09B67 /* HBookReader-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HBookReader-Info.plist"; sourceTree = "<group>"; };
+		D0BBAF2464A832243FDD7D81F84FE096 /* Pods-HBookReader_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HBookReader_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E011BECEB39F7AF848F876FD7B1FB40A /* HBookReader-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HBookReader-umbrella.h"; sourceTree = "<group>"; };
+		E7C39B509D05067897E3F023D3C4E547 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = HBookReader/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		EADAF017A1E9B2D3BE8909081426DA19 /* Pods-HBookReader_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HBookReader_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		EB66C2A2577697BDDEE61283DE8B7DCB /* Pods_HBookReader_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HBookReader_Example.framework; path = "Pods-HBookReader_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EED27A8040E63AA6E60C31DFFC9D5F5B /* Pods-HBookReader_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HBookReader_Tests.modulemap"; sourceTree = "<group>"; };
+		EF7777B0D2D486EDF5B4064449A63E04 /* Pods-HBookReader_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HBookReader_Example-umbrella.h"; sourceTree = "<group>"; };
+		EFCDCD19457F0205509AB324B6434F76 /* Pods-HBookReader_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HBookReader_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F8E5BA4AB76A760CA14E43922018B1A5 /* Pods-HBookReader_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HBookReader_Tests-Info.plist"; sourceTree = "<group>"; };
+		FA58F4260151032B10134947C8234AF2 /* HBookReader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HBookReader.debug.xcconfig; sourceTree = "<group>"; };
+		FDDEC09FF87F0AAB47770B62B9208F82 /* Pods-HBookReader_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HBookReader_Example-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D1D88302106CC422EB17834DD44F3B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79DBD0660AE304C8EF60C62889D4CA42 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77F578DF78744CBF5703938EF781A269 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EFFBFBD4B3FDC2464899BC6D0437E99 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D01C2BDA2348DFFB9974A03301C0514 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D53CA6046629E7D13DAAD7679EDC3BE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FABA5CF30A6B4AD342EC764C821C133 /* Pods-HBookReader_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EED27A8040E63AA6E60C31DFFC9D5F5B /* Pods-HBookReader_Tests.modulemap */,
+				EFCDCD19457F0205509AB324B6434F76 /* Pods-HBookReader_Tests-acknowledgements.markdown */,
+				2C24EAACAFA0127A6B6C38AAE9587849 /* Pods-HBookReader_Tests-acknowledgements.plist */,
+				59680E07507A24C7D05A4C5EAFEF390E /* Pods-HBookReader_Tests-dummy.m */,
+				F8E5BA4AB76A760CA14E43922018B1A5 /* Pods-HBookReader_Tests-Info.plist */,
+				5A78E10DB7F872CB0D2FD1D50EA7094A /* Pods-HBookReader_Tests-umbrella.h */,
+				A4D3A4CA7AA549DF689E3D76714D72A1 /* Pods-HBookReader_Tests.debug.xcconfig */,
+				D0BBAF2464A832243FDD7D81F84FE096 /* Pods-HBookReader_Tests.release.xcconfig */,
+			);
+			name = "Pods-HBookReader_Tests";
+			path = "Target Support Files/Pods-HBookReader_Tests";
+			sourceTree = "<group>";
+		};
+		272BBADEE4B2B83346FCB05753794D2B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				3F9ACE0DDE695733C9937963D0F7E349 /* HBookReader.podspec */,
+				73958FA2C3CCEF23033C462233D2F66E /* LICENSE */,
+				6787064BC11B3212B88155B8C751F3EE /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		353FED53BDA6D59143478D9EC89895C1 /* Pods-HBookReader_Example */ = {
+			isa = PBXGroup;
+			children = (
+				4668529B455EF39827C24D167F0931FE /* Pods-HBookReader_Example.modulemap */,
+				ABCC637F205349FCFA860F088D565087 /* Pods-HBookReader_Example-acknowledgements.markdown */,
+				82173E1507966743DA38F8013157FCF7 /* Pods-HBookReader_Example-acknowledgements.plist */,
+				28D4C827C1B92B08C302329B15494E67 /* Pods-HBookReader_Example-dummy.m */,
+				78D1FBF7913A20C6D11E2D1ECA2DAC5F /* Pods-HBookReader_Example-frameworks.sh */,
+				FDDEC09FF87F0AAB47770B62B9208F82 /* Pods-HBookReader_Example-Info.plist */,
+				EF7777B0D2D486EDF5B4064449A63E04 /* Pods-HBookReader_Example-umbrella.h */,
+				EADAF017A1E9B2D3BE8909081426DA19 /* Pods-HBookReader_Example.debug.xcconfig */,
+				139D97D6881817C44DF55C16F81FD58B /* Pods-HBookReader_Example.release.xcconfig */,
+			);
+			name = "Pods-HBookReader_Example";
+			path = "Target Support Files/Pods-HBookReader_Example";
+			sourceTree = "<group>";
+		};
+		53D3FD41B6EAE8C8A475F8FED328EDFF /* HBookReader */ = {
+			isa = PBXGroup;
+			children = (
+				E7C39B509D05067897E3F023D3C4E547 /* ReplaceMe.swift */,
+				272BBADEE4B2B83346FCB05753794D2B /* Pod */,
+				D2A7667B437B8C2235E5B410EA2B85B8 /* Support Files */,
+			);
+			name = HBookReader;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B6E53247EBB59E8CB898704ED527CE1A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				53D3FD41B6EAE8C8A475F8FED328EDFF /* HBookReader */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				B6E53247EBB59E8CB898704ED527CE1A /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				FAEE87E039B8C720B9D79B2973664046 /* Products */,
+				F0B2AE31F3DEEE39531CBB1B2D879091 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2A7667B437B8C2235E5B410EA2B85B8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				395D27BC0ACD0ACF6D132E8474D04D2D /* HBookReader.modulemap */,
+				31EE4C3F5D3644D11097099C07FA477F /* HBookReader-dummy.m */,
+				B9C8DC70B011DFDE735AFADC06F09B67 /* HBookReader-Info.plist */,
+				4C736839E6189B7068D8D2ECF488984E /* HBookReader-prefix.pch */,
+				E011BECEB39F7AF848F876FD7B1FB40A /* HBookReader-umbrella.h */,
+				FA58F4260151032B10134947C8234AF2 /* HBookReader.debug.xcconfig */,
+				303DB3F03DF9CF2FD7A7509105F4764A /* HBookReader.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HBookReader";
+			sourceTree = "<group>";
+		};
+		F0B2AE31F3DEEE39531CBB1B2D879091 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				353FED53BDA6D59143478D9EC89895C1 /* Pods-HBookReader_Example */,
+				0FABA5CF30A6B4AD342EC764C821C133 /* Pods-HBookReader_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		FAEE87E039B8C720B9D79B2973664046 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29F10E30CBAF3CAE61D99E6528F1B6FD /* HBookReader.framework */,
+				EB66C2A2577697BDDEE61283DE8B7DCB /* Pods_HBookReader_Example.framework */,
+				B2619BC06468D381015B7997F27B325E /* Pods_HBookReader_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4B84F37213474EFA36F499E3F2476CA6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9BF02AD8624D0918628A7901FF11198 /* HBookReader-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		818D227A19702B6B593E2EC83956FD4D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DC248EB360E1F9C1678CCF3912169FF /* Pods-HBookReader_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A19064571876FC2226CCE74E66D8C43 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FB8B8D10EC9384712D583814528809C /* Pods-HBookReader_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3FB1CFD2D16067DBAD25E127FE8BA053 /* Pods-HBookReader_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B5E53B76AEF7CC3F9A67A8E7CB3D112 /* Build configuration list for PBXNativeTarget "Pods-HBookReader_Tests" */;
+			buildPhases = (
+				9A19064571876FC2226CCE74E66D8C43 /* Headers */,
+				3CCB47041C476031099C4C222786FDBA /* Sources */,
+				7D01C2BDA2348DFFB9974A03301C0514 /* Frameworks */,
+				8BB287DCB5EA68207AD7B4C2B84D93D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4944C4BB544F00E8218884D74E7FB755 /* PBXTargetDependency */,
+			);
+			name = "Pods-HBookReader_Tests";
+			productName = "Pods-HBookReader_Tests";
+			productReference = B2619BC06468D381015B7997F27B325E /* Pods_HBookReader_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		96D1F97D58C94C7F008A92A7E271000E /* Pods-HBookReader_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF46968F8E8E8B6FFCD45766F608FAC7 /* Build configuration list for PBXNativeTarget "Pods-HBookReader_Example" */;
+			buildPhases = (
+				818D227A19702B6B593E2EC83956FD4D /* Headers */,
+				E8FA1DDBA89B9643CF4C6C0B9961019B /* Sources */,
+				6D1D88302106CC422EB17834DD44F3B1 /* Frameworks */,
+				828595F01966037F40883948AFEB8E72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDBFFEB0908F091F94B40A98B59E0AFD /* PBXTargetDependency */,
+			);
+			name = "Pods-HBookReader_Example";
+			productName = "Pods-HBookReader_Example";
+			productReference = EB66C2A2577697BDDEE61283DE8B7DCB /* Pods_HBookReader_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C111C693D3E44E9E2C03E83B9D1C76FB /* HBookReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 456C6B0C2C589D69DFECFA61145E2076 /* Build configuration list for PBXNativeTarget "HBookReader" */;
+			buildPhases = (
+				4B84F37213474EFA36F499E3F2476CA6 /* Headers */,
+				3462EF85BE5E02EA9A6B971570B82DD3 /* Sources */,
+				77F578DF78744CBF5703938EF781A269 /* Frameworks */,
+				CADDCFEC688B9D20175F3356BB188C67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HBookReader;
+			productName = HBookReader;
+			productReference = 29F10E30CBAF3CAE61D99E6528F1B6FD /* HBookReader.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = FAEE87E039B8C720B9D79B2973664046 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C111C693D3E44E9E2C03E83B9D1C76FB /* HBookReader */,
+				96D1F97D58C94C7F008A92A7E271000E /* Pods-HBookReader_Example */,
+				3FB1CFD2D16067DBAD25E127FE8BA053 /* Pods-HBookReader_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		828595F01966037F40883948AFEB8E72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BB287DCB5EA68207AD7B4C2B84D93D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CADDCFEC688B9D20175F3356BB188C67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3462EF85BE5E02EA9A6B971570B82DD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2E6BBEC86300D7F4E68EFF1D610B20C /* HBookReader-dummy.m in Sources */,
+				E11AB7EFD491E9F2F70CAA58C15F2BDB /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CCB47041C476031099C4C222786FDBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3389E240E8A1B5F6A61A79E534754276 /* Pods-HBookReader_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8FA1DDBA89B9643CF4C6C0B9961019B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F76270D53BCE362F47E0840F90CD31EA /* Pods-HBookReader_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4944C4BB544F00E8218884D74E7FB755 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HBookReader_Example";
+			target = 96D1F97D58C94C7F008A92A7E271000E /* Pods-HBookReader_Example */;
+			targetProxy = 72C89625B7730D2A8EC5542E5AAD5F36 /* PBXContainerItemProxy */;
+		};
+		EDBFFEB0908F091F94B40A98B59E0AFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HBookReader;
+			target = C111C693D3E44E9E2C03E83B9D1C76FB /* HBookReader */;
+			targetProxy = 1681978AF08259B836B8A1873378AA51 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02DADDD5365B701E59E8A8D7AC2E52EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EADAF017A1E9B2D3BE8909081426DA19 /* Pods-HBookReader_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HBookReader_Example/Pods-HBookReader_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HBookReader_Example/Pods-HBookReader_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2A59E9F8821D36A2F7CFF3C90849899D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 303DB3F03DF9CF2FD7A7509105F4764A /* HBookReader.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HBookReader/HBookReader-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HBookReader/HBookReader-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HBookReader/HBookReader.modulemap";
+				PRODUCT_MODULE_NAME = HBookReader;
+				PRODUCT_NAME = HBookReader;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		339A6620AE70843EBA57BB3627FF3437 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 139D97D6881817C44DF55C16F81FD58B /* Pods-HBookReader_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HBookReader_Example/Pods-HBookReader_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HBookReader_Example/Pods-HBookReader_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4BB02B6999DA9F794717D7FEBA71C6AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA58F4260151032B10134947C8234AF2 /* HBookReader.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HBookReader/HBookReader-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HBookReader/HBookReader-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HBookReader/HBookReader.modulemap";
+				PRODUCT_MODULE_NAME = HBookReader;
+				PRODUCT_NAME = HBookReader;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		831397B46F6F71CC845B5B76CB1950A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0BBAF2464A832243FDD7D81F84FE096 /* Pods-HBookReader_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HBookReader_Tests/Pods-HBookReader_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HBookReader_Tests/Pods-HBookReader_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B0BC595F2852ED24BB2931C1C8484792 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4D3A4CA7AA549DF689E3D76714D72A1 /* Pods-HBookReader_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HBookReader_Tests/Pods-HBookReader_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HBookReader_Tests/Pods-HBookReader_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B5E53B76AEF7CC3F9A67A8E7CB3D112 /* Build configuration list for PBXNativeTarget "Pods-HBookReader_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0BC595F2852ED24BB2931C1C8484792 /* Debug */,
+				831397B46F6F71CC845B5B76CB1950A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		456C6B0C2C589D69DFECFA61145E2076 /* Build configuration list for PBXNativeTarget "HBookReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BB02B6999DA9F794717D7FEBA71C6AE /* Debug */,
+				2A59E9F8821D36A2F7CFF3C90849899D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF46968F8E8E8B6FFCD45766F608FAC7 /* Build configuration list for PBXNativeTarget "Pods-HBookReader_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02DADDD5365B701E59E8A8D7AC2E52EA /* Debug */,
+				339A6620AE70843EBA57BB3627FF3437 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

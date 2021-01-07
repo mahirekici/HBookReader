@@ -1,0 +1,6 @@
+framework module HBookReader {
+  umbrella header "HBookReader-umbrella.h"
+
+  export *
+  module * { export * }
+}

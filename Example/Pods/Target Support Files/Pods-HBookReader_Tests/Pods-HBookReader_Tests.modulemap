@@ -1,0 +1,6 @@
+framework module Pods_HBookReader_Tests {
+  umbrella header "Pods-HBookReader_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - HBookReader (0.1.0)
+
+DEPENDENCIES:
+  - HBookReader (from `../`)
+
+EXTERNAL SOURCES:
+  HBookReader:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HBookReader: e6152f57374c51a78d335fb494fb75c90feafe3f
+
+PODFILE CHECKSUM: 4bd4ea50f2ed98b7fbb75efc6413cd9676f638e7
+
+COCOAPODS: 1.9.1

@@ -32,6 +32,8 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'HBookReader/Classes/**/*'
   
+  s.swift_version = '4.1'
+  
   # s.resource_bundles = {
   #   'HBookReader' => ['HBookReader/Assets/*.png']
   # }
